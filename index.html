@@ -12,18 +12,18 @@
             box-sizing: border-box;
         }
 
-        body {
+        body {            
             font-family: Arial, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            background-color: #527a77;
         }
 
         /* Estilo para el contenedor */
         .image-container {
             width: 100%;
-            max-width: 1200px;
+            /*max-width: 1200px;*/
             display: flex;
             justify-content: center;
             align-items: center;
@@ -32,13 +32,16 @@
         /* Estilo para la imagen */
         .image-container img {
             width: 100%; /* Por defecto la imagen ocupa el 100% */
-            height: auto;
+            height: 100vh;
+            object-fit: contain; /* Asegura que la imagen se muestre completa */
+            object-position: top; /* Alinea la imagen al top */
         }
 
         /* Media Queries para tablet */
         @media(min-width: 768px) and (max-width: 1024px) {
             .image-container img {
                 width: 100%;
+                object-position: top;
             }
         }
 
@@ -46,6 +49,8 @@
         @media(min-width: 1025px) {
             .image-container img {
                 width: 70%;
+                object-fit: contain; /* Asegura que la imagen se muestre completa */
+                object-position: top; /* Alinea la imagen al top */
             }
         }
     </style>
@@ -53,7 +58,7 @@
 <body>
 
     <div class="image-container">
-        <img src="invi.jpg" alt="Descripción de la imagen">
+        <img src="invi.png" alt="Descripción de la imagen">
     </div>
 
 </body>
