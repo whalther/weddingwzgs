@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Página Responsive</title>
+    <style>
+        /* Reseteo básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Estilo para el contenedor */
+        .image-container {
+            width: 100%;
+            max-width: 1200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Estilo para la imagen */
+        .image-container img {
+            width: 100%; /* Por defecto la imagen ocupa el 100% */
+            height: auto;
+        }
+
+        /* Media Queries para tablet */
+        @media(min-width: 768px) and (max-width: 1024px) {
+            .image-container img {
+                width: 100%;
+            }
+        }
+
+        /* Media Queries para escritorio */
+        @media(min-width: 1025px) {
+            .image-container img {
+                width: 70%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="image-container">
+        <img src="invi.jpg" alt="Descripción de la imagen">
+    </div>
+
+</body>
+</html>
