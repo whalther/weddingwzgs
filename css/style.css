@@ -311,7 +311,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(147, 147, 147, 0.5);
+  background: rgba(33, 33, 33, 0.5);
 }
 .fh5co-cover > .fh5co-container {
   position: relative;
@@ -878,7 +878,7 @@ form label {
   #fh5co-header .display-tc h2,
   #fh5co-counter .display-tc h2,
   .fh5co-cover .display-tc h2 {
-    font-size: 23px;
+    font-size: 30px;
   }
 }
 #fh5co-header .display-tc .btn,
@@ -1296,7 +1296,7 @@ form label {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.5);
 }
 #fh5co-started .fh5co-heading h2 {
   color: #fff;
