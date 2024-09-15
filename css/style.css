@@ -21,6 +21,7 @@ body {
 }
 
 #page {
+  background-color: #e8b2b2;
   position: relative;
   overflow-x: hidden;
   width: 100%;
@@ -404,14 +405,15 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .event-wrap,
 #fh5co-event .event-wrap {
-  border: 2px solid rgba(0, 0, 0, 0.5);
+  border: 2px solid #e8b2b2;
+  background-color: #e9c8c8;
   padding: 30px;
   width: 100%;
   float: left;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-counter .event-wrap,
@@ -833,7 +835,7 @@ form label {
 .fh5co-cover .display-tc {
   display: table-cell !important;
   vertical-align: middle;
-  padding-top: 120px;
+  padding-top: 20px;
 }
 #fh5co-header .display-tc h1, #fh5co-header .display-tc h2,
 #fh5co-counter .display-tc h1,
