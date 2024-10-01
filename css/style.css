@@ -1524,7 +1524,7 @@ form label {
 }
 .fh5co-nav-toggle i {
   position: relative;
-  display: none;/*inline-block;*/
+  display: none;
   width: 25px;
   height: 2px;
   color: #252525;
